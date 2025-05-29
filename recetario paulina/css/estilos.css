@@ -1,0 +1,133 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 1280px;
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+header {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 45px;
+}
+
+.nav-bar {
+  background-color: #C90D1F;
+  padding: 12px 30px;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #F9F6F3;
+  overflow-y: auto;
+}
+
+.inicio-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.bienvenida {
+  flex: 1.5;
+  max-width: 700px;
+  color: #D90000;
+  min-width: 300px;
+}
+
+.bienvenida p {
+  line-height: 1.6;
+  margin-bottom: 18px;
+  font-size: 1rem;
+}
+
+.bienvenida em {
+  font-style: italic;
+}
+
+.bienvenida strong {
+  font-weight: bold;
+}
+
+.frase-final {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #B00000;
+}
+
+.foto-paulina {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  min-width: 200px;
+  border-radius: 10px;
+}
+
+.foto {
+  width: 300px;
+  display: block;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.logo-uces {
+  height: 50px;
+}
+
+.autor {
+  margin: 0;
+  font-weight: bold;
+}
